@@ -36,6 +36,18 @@
     "react-helmet": "^5.2.1"
   },
   "dependencies": {
-    "gatsby-image": "^2.0.41"
+    "gatsby-image": "^2.0.41",
+    "gatsby-plugin-manifest": "^2.4.18",
+    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
+    "gatsby-plugin-react-svg": "^3.0.0",
+    "gatsby-plugin-sass": "^2.3.12",
+    "gatsby-plugin-sharp": "^2.6.19",
+    "gatsby-source-filesystem": "^2.3.19",
+    "gatsby-transformer-sharp": "^2.5.11",
+    "magic-grid": "^3.2.4",
+    "node-sass": "^4.14.1",
+    "react-device-detect": "^1.13.1",
+    "react-jotform-embed": "^1.0.4",
+    "react-reveal": "^1.2.2"
   }
 }

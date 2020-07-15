@@ -1,0 +1,83 @@
+@import '../../variables.scss';
+
+.root{
+   width: 25%;
+   
+  opacity: 0;
+  
+ 
+  
+}
+.loaded{
+    opacity: 1;
+   
+}
+.image{
+   
+  width:100%;
+}
+
+
+
+.artistName{
+    font-size: 1.35rem; 
+}
+
+.infoRoot{
+    display: flex;
+    align-items: center;
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+.dot{
+    align-self: flex-start;
+    margin-top: 4px;
+    min-width: 20px;
+    min-height:20px;
+    border-radius: 50%;
+}
+
+.dot{
+    background-color: $green;
+}
+.dotSold{
+    background-color: $red;
+}
+
+.artworkName{
+    padding-left: 10px;
+    margin-right: auto;
+}
+
+
+@include tablet {
+    .root{
+       width: 34%;
+     }
+
+}
+
+@include mobile {
+    .root{
+       width: 100%;
+       padding: 0 20px;
+      
+     }
+     .infoRoot{
+         flex-wrap: wrap;
+
+        .dot{
+            align-self: flex-start;
+            margin-top: 3px;
+
+        }
+        .artworkName{
+            width: calc(100% - 30px);
+            padding-left: 10px;
+            margin:0;
+        }
+        .price{
+            margin-top: 20px;
+        }
+     }
+}

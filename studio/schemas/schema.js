@@ -9,6 +9,11 @@ import author from './documents/author'
 import category from './documents/category'
 import post from './documents/post'
 import siteSettings from './documents/siteSettings'
+import artwork from './documents/artwork'
+import artist from './documents/artist'
+import medium from './documents/medium'
+import stil from './documents/stil'
+import kunstwerk from './documents/kunstwerk'
 
 // Object types
 import bodyPortableText from './objects/bodyPortableText'
@@ -26,6 +31,11 @@ export default createSchema({
   types: schemaTypes.concat([
     // The following are document types which will appear
     // in the studio.
+    kunstwerk,
+    stil,
+    medium,
+    artist,
+    artwork,
     siteSettings,
     post,
     category,

@@ -12,7 +12,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import ArtworsContainer from './artworksContainer';
 import Frida from '../../Frida/frida'
 
-import style from './artworks.module.css'
+import style from './artworks.module.scss'
 
 export default function Artworks({ postCount = 9, filter = false, infinite = false }) {
 

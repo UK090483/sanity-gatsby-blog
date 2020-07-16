@@ -13,7 +13,7 @@ import artwork from './documents/artwork'
 import artist from './documents/artist'
 import medium from './documents/medium'
 import stil from './documents/stil'
-import kunstwerk from './documents/kunstwerk'
+import supporter from './documents/supporter'
 
 // Object types
 import bodyPortableText from './objects/bodyPortableText'
@@ -31,7 +31,7 @@ export default createSchema({
   types: schemaTypes.concat([
     // The following are document types which will appear
     // in the studio.
-    kunstwerk,
+    supporter,
     stil,
     medium,
     artist,

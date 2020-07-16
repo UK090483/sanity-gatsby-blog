@@ -44,7 +44,7 @@ export default {
         },
         {
             title: 'Höhe',
-            name: 'height',
+            name: 'hight',
             type: 'number',
             validation: Rule => Rule.required()
         },
